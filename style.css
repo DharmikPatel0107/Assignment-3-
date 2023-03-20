@@ -1,0 +1,64 @@
+/* Define a custom font */
+@font-face {
+  font-family: 'MyFont';
+  src: url('myfont.woff') format('woff');
+}
+
+/* Apply the custom font to the body element */
+body {
+  font-family: 'MyFont', sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #dfcde9;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  
+  <img src="1920-2D.png.webp" alt="Candy">
+      
+
+  
+
+/* Style the navigation links */
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #c00;
+}
+
+/* Style the main content area */
+article, section {
+  margin: 20px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #322833;
+  color: #e4d6ef;
+  padding: 20px;
+  text-align: center;
+}
